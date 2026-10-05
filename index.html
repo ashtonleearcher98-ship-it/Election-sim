@@ -1,1 +1,11 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mandate — Political Life</title><link rel="stylesheet" href="style.css"></head><body><header><a class="brand" href="./">◈ MANDATE <small>POLITICAL LIFE</small></a><div><button id="save">Export save</button><label class="button">Import save<input id="import" type="file" accept="application/json" hidden></label><button id="new">New career</button></div></header><main id="app"></main><footer>A fictional political simulation. Country presets are illustrative; parties, results, districts and events are simulated. No real-world election predictions.</footer><script src="countries.js"></script><script src="engine.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#182b38">
+<meta name="description" content="Mandate: a political career simulation with researched 2026 institutions, real parties and electorates, state elections, parliament charts and three-month turns.">
+<title>Mandate — A Political Life</title><link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+</head>
+<body><div id="app"><div class="loading">Loading Mandate…</div></div><div id="toast" role="status" aria-live="polite"></div><dialog id="modal"></dialog><input id="import" type="file" accept="application/json" hidden>
+<script src="data/politics.js"></script><script src="data/world.js"></script><script src="data/au-divisions.js"></script><script src="data/us-states.js"></script>
+<script src="data/au-nsw.js"></script><script src="data/au-vic.js"></script><script src="data/au-qld.js"></script><script src="data/au-wa.js"></script><script src="data/au-sa.js"></script><script src="data/au-act.js"></script><script src="data/au-nt.js"></script>
+<script src="engine.js"></script><script src="app.js"></script></body></html>
